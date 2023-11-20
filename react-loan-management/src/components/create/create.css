@@ -1,0 +1,23 @@
+.create{
+    height: 100vh;
+    width: 100%;
+}
+.createContainer{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.createContainer input{
+    margin-block: 1vh;
+}
+.buttonContainer{
+    display: flex;
+   
+}
+.buttonContainer button{
+    margin-top: 2vh;
+     margin-inline: 3vh;
+}

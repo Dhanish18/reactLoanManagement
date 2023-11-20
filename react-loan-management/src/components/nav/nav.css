@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    float: left;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.nav Link{
+    text-decoration: none;
+    margin-block: 3vh; 
+}
+.nav Button{
+    margin-top: 2.5vh;
+}

@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Create from './components/create/create'
+import Dashboard from './components/dashboard/dashboard'
+import Diolog from './components/diolog/diolog'
+import Home from './components/home/home'
+import Login from './components/login/login'
+import Nav from './components/nav/nav'
+import Read from './components/read/read'
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/>
+      <Route path='/create' element={<Create/>}/>
+      <Route path='/Read' element={<Read/>}/>
+    </Routes>
   );
 }
-
 export default App;
